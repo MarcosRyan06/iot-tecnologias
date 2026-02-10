@@ -21,6 +21,9 @@ header{
     position: relative;
     overflow: hidden;
 }
+.fundo{
+    background: #ff1f1f47;
+}
 .capa{
     display: flex;
     align-items: center;
@@ -104,7 +107,7 @@ img{
     margin: auto;
     padding: auto;
 }
-.voltar{
+nav a{
     background: rgba(185, 185, 185, 0.95);
     color: #111;
     padding: 14px;
@@ -124,6 +127,9 @@ img{
 }
 .voltar:hover{
      background: linear-gradient(135deg, #2ecc71, #27ae60, #000000);
+}
+.vt2:hover{
+    background: linear-gradient(135deg, #ff5252, #d32f2f, #000000);
 }
 footer{
     background: #111;
