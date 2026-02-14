@@ -108,7 +108,7 @@ img{
     padding: auto;
 }
 nav a{
-    background: rgba(185, 185, 185, 0.95);
+    background-color: #afafaf;
     color: #111;
     padding: 14px;
     border-radius: 10px;
@@ -125,7 +125,7 @@ nav a{
     padding: auto;
     max-width: 350px;
 }
-.voltar:hover{
+.bt-mobile:hover{
      background: linear-gradient(135deg, #2ecc71, #27ae60, #000000);
 }
 .vt2:hover{
