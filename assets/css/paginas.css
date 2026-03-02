@@ -24,6 +24,21 @@ header{
 .fundo{
     background: #ff1f1f47;
 }
+.fundo2{
+    background: #1fb1ff47;
+}
+.fundo3{
+    background: #1fb1ff47;
+}
+.fundo4{
+    background: #1fb1ff47;
+}
+.fundo5{
+    background: #1fb1ff47;
+}
+.fundo6{
+    background: #1fb1ff47;
+}
 .capa{
     display: flex;
     align-items: center;
@@ -130,6 +145,18 @@ nav a{
 }
 .vt2:hover{
     background: linear-gradient(135deg, #ff5252, #d32f2f, #000000);
+}
+.vt3:hover{
+    background: linear-gradient(135deg, #42a5f5, #1e88e5, #000000);
+}
+.vt4:hover {
+    background: linear-gradient(135deg, #ffb74d, #f57c00, #000000);
+}
+.vt5:hover {
+    background: linear-gradient(135deg, #fff176, #fbc02d, #000000);
+}
+.vt6:hover {
+    background: linear-gradient(135deg, #f06292, #ec407a, #000000);
 }
 footer{
     background: #111;
