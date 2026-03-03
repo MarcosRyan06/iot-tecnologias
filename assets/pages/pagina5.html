@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Arquiterura IoT</title>
 
     <link rel="stylesheet" href="./../css/paginas.css" />
     <link
@@ -14,19 +14,19 @@
   </head>
 
   <body>
-    <header>
+    <header class="fundo4">
       <div>
-        <h1></h1>
+        <h1>Arquiterura IoT</h1>
       </div>
 
       <div class="capa">
         <div>
-          <img src="" alt="" class="imagem-capa" />
+          <img src="./../img/imgAIOT/aiot1.jpg" alt="" class="imagem-capa" />
         </div>
 
         <div class="capa-texto">
-          <h2></h2>
-          <p></p>
+          <h2>Arquiterura</h2>
+          <p>A arquitetura IoT é a estrutura lógica e física que conecta sensores, redes, plataformas em nuvem e aplicativos para processar dados do mundo físico e transformá-los em inteligência. Ela é baseada em camadas funcionais — comumente Percepção, Rede, Processamento e Aplicação — garantindo escalabilidade, segurança e interoperabilidade no fluxo de informações, do dispositivo ao usuário final.</p>
         </div>
       </div>
     </header>
@@ -35,18 +35,28 @@
       <section>
         <div class="container">
           <div class="topico1">
-            <h3></h3>
-            <p></p>
+            <h3>O que é arquitetura de IoT?</h3>
+            <p>O termo arquitetura de IoT refere-se à estrutura que define como vários elementos da IoT (por exemplo, dispositivos, redes, sensores, aplicativos) interagem dentro de um ambiente de IoT. Normalmente, a arquitetura de IoT consiste em diversas camadas e componentes que executam uma variedade de funções, desde dispositivos físicos e sistemas de aquisição de dados, até dispositivos de rede que comunicam dados da IoT, aplicativos de processamento de dados e armazenamento de dados da IoT.</p> <br>
+            <h3>Camadas da arquitetura da IoT</h3>
+            <p>Para entender a arquitetura da IoT e determinar as soluções de IoT adequadas para uma organização, é necessário compreender a arquitetura em camadas da IoT. Aqui, uma arquitetura de IoT de cinco camadas será usada como exemplo para discussão.</p> <br>
+            <h3>Camada de percepção</h3>
+            <p>A camada de percepção interage com o ambiente físico para coletar dados brutos. Dispositivos conectados à IoT, como sensores e câmeras, coletam passivamente informações e imagens que serão comunicadas pela camada de transporte (por exemplo, a camada de rede), enquanto os atuadores instruem os dispositivos a executar tarefas com base nos dados dos sensores ou em comandos adicionais dentro dos sistemas de IoT. (Atuadores são dispositivos de hardware que convertem energia em movimento.)</p> <br>
+            <h3>Camada de transporte</h3>
+            <p>A camada de transporte, também chamada de camada de rede, é responsável pelo fluxo e transferência de dados entre os sensores na camada de percepção e a camada de processamento através de diversas redes (por exemplo, transferência de dados entre dispositivos IoT e sistemas de back-end usando WiFi, Bluetooth, etc.).</p> <br>
+            <h3>Camada de processamento</h3>
+            <p>A camada de processamento de dados, também conhecida como camada intermediária (middleware), armazena, analisa e pré-processa os dados provenientes da camada de transporte. Isso inclui atividades como agregação de dados, tradução de protocolos e aplicação de medidas de segurança para preparar os dados para a camada de aplicação. Além disso, agentes de mensagens, plataformas de IoT e nós de computação de borda também podem ser incluídos nessa camada.</p> <br>
+            <h3>Camada de aplicação</h3>
+            <p>A camada de aplicação contém aplicativos de software que utilizam os dados processados ​​coletados na camada de percepção para concluir tarefas ou obter insights por meio de análises avançadas. Bancos de dados, data warehouses e data lakes estão todos incluídos na camada de aplicação.</p> <br>
+            <h3>Camada de negócios</h3>
+            <p>A camada de negócios é provavelmente a camada de arquitetura de IoT mais comum, pois envolve interfaces de usuário, painéis e ferramentas de visualização de dados que a maioria dos profissionais de negócios está acostumada a usar diariamente. É na camada de negócios que todos os dados coletados e processados ​​criam valor, fornecendo insights e embasando decisões de negócios.</p> <br>
           </div>
 
           <div class="topico2">
-            <h3></h3>
+            <h3>Componentes Chave</h3>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li><b> Dispositivos (Coisas):</b> Hardware, microcontroladores (ex: ESP32, Arduino) com sensores.</li>
+              <li><b>Gateway IoT:</b> Dispositivo que interliga os sensores à nuvem, realizando pré-processamento.</li>
+              <li><b>Plataforma Cloud:</b> Serviços como AWS IoT ou Google Cloud IoT que gerenciam a conectividade e armazenam dados</li>
             </ul>
           </div>
 
@@ -56,71 +66,22 @@
           </div>
         </div>
       </section>
-
       <section>
-        <div class="container2">
-          <div class="titulos">
-            <h4></h4>
-            <p></p>
-          </div>
-
-          <div class="cards">
-            <div class="card">
-              <p class="texto"></p>
-              <div class="icone">
-                <span class="avatar"></span>
-                <div>
-                  <strong></strong>
-                  <small></small>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <p class="texto"></p>
-              <div class="icone">
-                <span class="avatar"></span>
-                <div>
-                  <strong></strong>
-                  <small></small>
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <p class="texto"></p>
-              <div class="icone">
-                <span class="avatar"></span>
-                <div>
-                  <strong></strong>
-                  <small></small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <img src="" alt="" />
+        <img src="./../img/imgAIOT/aiot2.jpg" alt="" />
       </section>
 
       <section>
         <div class="container">
           <div class="topico1">
-            <h3></h3>
-            <p></p>
+            <h3>Melhores Práticas</h3>
+            <p>Uma boa arquitetura deve focar em segurança (autenticação de ponta a ponta), interoperabilidade (capacidade de trabalhar com diferentes dispositivos) e escalabilidade (capacidade de crescer de um para milhares de dispositivos)</p>
           </div>
-
-          <div class="topico1">
-            <h3></h3>
-            <p></p>
-          </div>
-        </div>
       </section>
 
       <section>
-        <a href="#" class="voltar"></a>
+        <nav>
+        <a href="./../../index.html" class="vt5">Voltar para a Pagina Principal</a>
+        </nav>
       </section>
     </main>
 
